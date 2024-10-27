@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#form {
+    /* align-items: center; */
+    background-color: rgb(206, 75, 75);
+    top: 20px;
+    height: auto;
+    display:block;
+    text-align: center;
+}
+
+.cards {
+    border: 2px solid;
+    display: flex;
+    justify-content:space-between;
+    margin: 20px;
+    background-color: rgb(103, 139, 232);
+    padding: 5px;
+}
+
+
+button {
+    margin-bottom: 5px;
+    background-color:
+     rgb(87, 233, 121);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+button:active {
+    background-color: white;
+}
+
+
+#error-msg {
+    background-color: green;
+    position:fixed;
+    bottom: 0px;
+    right: 0px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    transition: opacity;
+}
+
+#error-msg::after {
+    opacity: 0px;
+}
